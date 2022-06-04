@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+   /* cores da página
+    background-color: #AD8B73 ;
+    background-color: #CEAB93;
+    background-color: #E3CAA5;
+    background-color: #FFFBE9;
+    */
+
+    body{
+        margin: 0%;
+       
+    }
+
+    #bordasuperior{
+        width: 100%;
+        background-color:#511C17;
+        height: 4em;   
+        font-family: 'Koulen&family';
+        position: sticky;
+        top: 0px;
+        
+    }
+    
+    #bordasuperior a:hover{
+        color: #D9D9D9;
+    }
+
+    #bordasuperior img{
+        padding-left:  4px;
+        height: 3.7em;
+        width: 5em;
+        float: left;
+        padding-top: 4px;
+
+    }
+
+    #bordasuperior a{
+        color: #AD8B73;
+        text-decoration: none;
+        display: flex;
+        float: right;
+        margin: 2% 5%;
+    }
+
+    #tela1{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imagens.css/principal.jpg');
+        height: 600px;
+        padding-top: 10%;
+        text-align: center;
+        font-family: 'Koulen&family';
+        color: #511C17;
+    }
+    #tela1 h1{
+        margin-bottom: 0%;
+        font-size: 3.2em;
+        font-family: 'Koulen&family';
+        color: #511C17;
+    }
+
+    #tela1 p{
+        font-size: 1.5em;
+        font-family: 'Dancing Script';
+        font-weight: bold;
+    
+    }
+    #tela2{
+        padding-top: 1%;
+        background-color: #AD8B73;
+        height: 600px;
+        display: flex;
+        
+    }
+    #texto1{
+        padding-top: 10%;
+        
+        
+    }
+    #tela2 img{
+        padding-top: 10%;
+        height: 350px;
+        width:  550px;
+        
+    }
+
+    .texto1{
+        margin-top: 0%;
+        
+        
+    }
+    #tela3{
+        padding-top: 1%;
+        background-color: #470906;
+        height: 600px;
+        
+    }
+    #tela4{
+        padding-top: 1%;
+        background-color: #9d897b;
+        height: 600px;
+        margin: 0;
+        
+    }
+    footer{
+        width: 100%;
+        background-color:#470906;
+        font-family: 'Koulen&family';
+        color: #AD8B73;
+        padding-top: 28px;
+        text-align: center;
+        height: 3em;   
+       
+        
+    }
